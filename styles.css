@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+
+.logo img {
+  width: 70px;
+  height: 50px;
+}
+
+.nav-links {
+  width: 800px;
+  justify-content: space-around;
+}
+ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  width: 1100px;
+  margin: 25px auto;
+  justify-content: space-between;
+}
+
+.about {
+  width: 650px;
+}
+
+.name,
+h2 {
+  color: #00d1cd;
+}
+
+.name,
+.two-year-plan {
+  width: fit-content;
+  margin-left: 35px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5em;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  width: fit-content;
+}
+
+#last-name {
+  margin-left: 60px;
+}
+
+.about-text {
+  width: 450px;
+  margin-left: 150px;
+}
+
+.two-year-plan {
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+
+  margin-left: 60px;
+  width: fit-content;
+}
+.plan-text {
+  margin-left: 100px;
+  width: 400px;
+}
+
+.social-icons {
+  margin-left: 35px;
+  width: fit-content;
+}
+.social-icons a {
+  margin: 0 20px;
+}
+
+.profile {
+  width: 300px;
+  height: 400px;
+}
+
+.profile-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+a {
+  color: #00d1cd;
+  text-decoration: none;
+}
+
+.footer {
+  width: 280px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.info {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
+.footer a {
+  width: fit-content;
+  margin: 0 5px;
+}
+
+@media (max-width: 700px) {
+  body,
+  .nav,
+  .hero,
+  .about,
+  .footer, .nav-links {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+.logo{
+    width: fit-content;
+    margin: auto;
+}
+
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .nav-links{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .plan-text,
+  .about-text {
+    text-align: center;
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: normal;
+  }
+
+  .profile {
+    width: 100%;
+    margin: auto;
+  }
+#slackname{
+    text-align: center;
+    width: 100%;
+}
+
+.about{
+    margin-top: 70px;
+}
+
+.name{
+    margin: auto;
+}
+  h1, #last-name {
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+  h2 {
+    margin: auto;
+  }
+  .profile-img {
+    margin: auto;
+    text-align: center;
+  }
+  .profile-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .social-icons{
+    margin: 20px auto;
+  }
+}
